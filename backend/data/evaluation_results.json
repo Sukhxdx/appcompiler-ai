@@ -1,0 +1,3037 @@
+{
+  "runs": [
+    {
+      "run_id": "2026-06-22T14:07:30.743883+00:00",
+      "summary": {
+        "run_id": "2026-06-22T14:07:30.743883+00:00",
+        "timestamp": "2026-06-22T14:07:30.743883+00:00",
+        "total_prompts": 20,
+        "success_rate": 1.0,
+        "retries_per_request": 0.95,
+        "repair_count": 38,
+        "avg_latency_ms": 0.0,
+        "failure_types": {}
+      },
+      "results": [
+        {
+          "prompt_id": "p01",
+          "category": "normal",
+          "prompt": "Build a task management app where users can create, assign, and track tasks with statuses. Admins can manage all users.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "p02",
+          "category": "normal",
+          "prompt": "Create an internal inventory management system with products, stock levels, and low-stock alerts for warehouse managers.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "p03",
+          "category": "normal",
+          "prompt": "Design a simple blogging platform where authors can write posts and readers can comment. Include user registration and login.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "p04",
+          "category": "normal",
+          "prompt": "Build a customer support ticket system with agents, customers, ticket priorities, and a dashboard for managers.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "p05",
+          "category": "normal",
+          "prompt": "Create an employee leave request app where employees submit requests and managers approve or reject them.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "p06",
+          "category": "normal",
+          "prompt": "Build a recipe sharing app with user profiles, recipe CRUD, ratings, and a search feature.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "p07",
+          "category": "normal",
+          "prompt": "Design a project management tool with projects, milestones, team members, and role-based access for admins and contributors.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "p08",
+          "category": "normal",
+          "prompt": "Create an event booking system where organizers create events and attendees register with email confirmation.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "p09",
+          "category": "normal",
+          "prompt": "Build a fitness tracking app where users log workouts, set goals, and view progress charts on a dashboard.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "p10",
+          "category": "normal",
+          "prompt": "Design a document approval workflow where employees upload documents and approvers review and sign off.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "e01",
+          "category": "edge",
+          "prompt": "I need some kind of app, maybe for managing stuff? Not sure what features yet.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "e02",
+          "category": "edge",
+          "prompt": "Build an app where guests have full admin access but admins can only view read-only pages.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "e03",
+          "category": "edge",
+          "prompt": "Create a shop with Stripe checkout but no product catalog or order tables mentioned.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "e04",
+          "category": "edge",
+          "prompt": "Build a user portal without login or authentication of any kind but with private user data pages.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "e05",
+          "category": "edge",
+          "prompt": "Design a CRM with contacts and deals but the database should only have a single settings table.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "e06",
+          "category": "edge",
+          "prompt": "Create an app where managers can delete orders but the orders entity is never defined.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "e07",
+          "category": "edge",
+          "prompt": "Build a payment app with billing but payment endpoints should write to a nonexistent transactions table.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "e08",
+          "category": "edge",
+          "prompt": "Make a social network with posts and friends but only define a users table with email field.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "e09",
+          "category": "edge",
+          "prompt": "Create a dashboard app where the login form submits to /api/unknown-endpoint.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        },
+        {
+          "prompt_id": "e10",
+          "category": "edge",
+          "prompt": "Build an app with admin, user, and superadmin roles but business rules only reference a phantom auditor role.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 2,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "run_id": "2026-06-22T14:27:52.367810+00:00",
+      "summary": {
+        "run_id": "2026-06-22T14:27:52.367810+00:00",
+        "timestamp": "2026-06-22T14:27:52.367810+00:00",
+        "total_prompts": 20,
+        "successful_prompts": 20,
+        "success_rate": 1.0,
+        "retries_per_request": 0.0,
+        "repair_count": 0,
+        "avg_repairs_per_prompt": 0.0,
+        "avg_latency_ms": 0.0,
+        "failure_types": {
+          "clarification_needed": 1
+        },
+        "repair_examples": []
+      },
+      "results": [
+        {
+          "prompt_id": "p01",
+          "category": "normal",
+          "prompt": "Build a task management app where users can create, assign, and track tasks with statuses. Admins can manage all users.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p02",
+          "category": "normal",
+          "prompt": "Create an internal inventory management system with products, stock levels, and low-stock alerts for warehouse managers.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p03",
+          "category": "normal",
+          "prompt": "Design a simple blogging platform where authors can write posts and readers can comment. Include user registration and login.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p04",
+          "category": "normal",
+          "prompt": "Build a customer support ticket system with agents, customers, ticket priorities, and a dashboard for managers.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p05",
+          "category": "normal",
+          "prompt": "Create an employee leave request app where employees submit requests and managers approve or reject them.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p06",
+          "category": "normal",
+          "prompt": "Build a recipe sharing app with user profiles, recipe CRUD, ratings, and a search feature.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p07",
+          "category": "normal",
+          "prompt": "Design a project management tool with projects, milestones, team members, and role-based access for admins and contributors.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p08",
+          "category": "normal",
+          "prompt": "Create an event booking system where organizers create events and attendees register with email confirmation.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p09",
+          "category": "normal",
+          "prompt": "Build a fitness tracking app where users log workouts, set goals, and view progress charts on a dashboard.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p10",
+          "category": "normal",
+          "prompt": "Design a document approval workflow where employees upload documents and approvers review and sign off.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e01",
+          "category": "edge",
+          "prompt": "I need some kind of app, maybe for managing stuff? Not sure what features yet.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [
+              "clarification_needed"
+            ],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e02",
+          "category": "edge",
+          "prompt": "Build an app where guests have full admin access but admins can only view read-only pages.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e03",
+          "category": "edge",
+          "prompt": "Create a shop with Stripe checkout but no product catalog or order tables mentioned.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e04",
+          "category": "edge",
+          "prompt": "Build a user portal without login or authentication of any kind but with private user data pages.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e05",
+          "category": "edge",
+          "prompt": "Design a CRM with contacts and deals but the database should only have a single settings table.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e06",
+          "category": "edge",
+          "prompt": "Create an app where managers can delete orders but the orders entity is never defined.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e07",
+          "category": "edge",
+          "prompt": "Build a payment app with billing but payment endpoints should write to a nonexistent transactions table.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e08",
+          "category": "edge",
+          "prompt": "Make a social network with posts and friends but only define a users table with email field.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e09",
+          "category": "edge",
+          "prompt": "Create a dashboard app where the login form submits to /api/unknown-endpoint.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e10",
+          "category": "edge",
+          "prompt": "Build an app with admin, user, and superadmin roles but business rules only reference a phantom auditor role.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        }
+      ]
+    },
+    {
+      "run_id": "2026-06-22T14:29:45.162982+00:00",
+      "summary": {
+        "run_id": "2026-06-22T14:29:45.162982+00:00",
+        "timestamp": "2026-06-22T14:29:45.162982+00:00",
+        "total_prompts": 20,
+        "successful_prompts": 20,
+        "success_rate": 1.0,
+        "retries_per_request": 0.0,
+        "repair_count": 0,
+        "avg_repairs_per_prompt": 0.0,
+        "avg_latency_ms": 0.0,
+        "failure_types": {
+          "clarification_needed": 1
+        },
+        "repair_examples": []
+      },
+      "results": [
+        {
+          "prompt_id": "p01",
+          "category": "normal",
+          "prompt": "Build a task management app where users can create, assign, and track tasks with statuses. Admins can manage all users.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p02",
+          "category": "normal",
+          "prompt": "Create an internal inventory management system with products, stock levels, and low-stock alerts for warehouse managers.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p03",
+          "category": "normal",
+          "prompt": "Design a simple blogging platform where authors can write posts and readers can comment. Include user registration and login.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p04",
+          "category": "normal",
+          "prompt": "Build a customer support ticket system with agents, customers, ticket priorities, and a dashboard for managers.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p05",
+          "category": "normal",
+          "prompt": "Create an employee leave request app where employees submit requests and managers approve or reject them.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p06",
+          "category": "normal",
+          "prompt": "Build a recipe sharing app with user profiles, recipe CRUD, ratings, and a search feature.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p07",
+          "category": "normal",
+          "prompt": "Design a project management tool with projects, milestones, team members, and role-based access for admins and contributors.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p08",
+          "category": "normal",
+          "prompt": "Create an event booking system where organizers create events and attendees register with email confirmation.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p09",
+          "category": "normal",
+          "prompt": "Build a fitness tracking app where users log workouts, set goals, and view progress charts on a dashboard.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p10",
+          "category": "normal",
+          "prompt": "Design a document approval workflow where employees upload documents and approvers review and sign off.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e01",
+          "category": "edge",
+          "prompt": "I need some kind of app, maybe for managing stuff? Not sure what features yet.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [
+              "clarification_needed"
+            ],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e02",
+          "category": "edge",
+          "prompt": "Build an app where guests have full admin access but admins can only view read-only pages.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e03",
+          "category": "edge",
+          "prompt": "Create a shop with Stripe checkout but no product catalog or order tables mentioned.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e04",
+          "category": "edge",
+          "prompt": "Build a user portal without login or authentication of any kind but with private user data pages.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e05",
+          "category": "edge",
+          "prompt": "Design a CRM with contacts and deals but the database should only have a single settings table.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e06",
+          "category": "edge",
+          "prompt": "Create an app where managers can delete orders but the orders entity is never defined.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e07",
+          "category": "edge",
+          "prompt": "Build a payment app with billing but payment endpoints should write to a nonexistent transactions table.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e08",
+          "category": "edge",
+          "prompt": "Make a social network with posts and friends but only define a users table with email field.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e09",
+          "category": "edge",
+          "prompt": "Create a dashboard app where the login form submits to /api/unknown-endpoint.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e10",
+          "category": "edge",
+          "prompt": "Build an app with admin, user, and superadmin roles but business rules only reference a phantom auditor role.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        }
+      ]
+    },
+    {
+      "run_id": "2026-06-22T16:07:28.057738+00:00",
+      "summary": {
+        "run_id": "2026-06-22T16:07:28.057738+00:00",
+        "timestamp": "2026-06-22T16:07:28.057738+00:00",
+        "total_prompts": 20,
+        "successful_prompts": 20,
+        "success_rate": 1.0,
+        "retries_per_request": 0.0,
+        "repair_count": 0,
+        "avg_repairs_per_prompt": 0.0,
+        "avg_latency_ms": 0.0,
+        "failure_types": {
+          "clarification_needed": 1
+        },
+        "repair_examples": []
+      },
+      "results": [
+        {
+          "prompt_id": "p01",
+          "category": "normal",
+          "prompt": "Build a task management app where users can create, assign, and track tasks with statuses. Admins can manage all users.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p02",
+          "category": "normal",
+          "prompt": "Create an internal inventory management system with products, stock levels, and low-stock alerts for warehouse managers.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p03",
+          "category": "normal",
+          "prompt": "Design a simple blogging platform where authors can write posts and readers can comment. Include user registration and login.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p04",
+          "category": "normal",
+          "prompt": "Build a customer support ticket system with agents, customers, ticket priorities, and a dashboard for managers.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p05",
+          "category": "normal",
+          "prompt": "Create an employee leave request app where employees submit requests and managers approve or reject them.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p06",
+          "category": "normal",
+          "prompt": "Build a recipe sharing app with user profiles, recipe CRUD, ratings, and a search feature.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p07",
+          "category": "normal",
+          "prompt": "Design a project management tool with projects, milestones, team members, and role-based access for admins and contributors.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p08",
+          "category": "normal",
+          "prompt": "Create an event booking system where organizers create events and attendees register with email confirmation.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p09",
+          "category": "normal",
+          "prompt": "Build a fitness tracking app where users log workouts, set goals, and view progress charts on a dashboard.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p10",
+          "category": "normal",
+          "prompt": "Design a document approval workflow where employees upload documents and approvers review and sign off.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e01",
+          "category": "edge",
+          "prompt": "I need some kind of app, maybe for managing stuff? Not sure what features yet.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [
+              "clarification_needed"
+            ],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e02",
+          "category": "edge",
+          "prompt": "Build an app where guests have full admin access but admins can only view read-only pages.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e03",
+          "category": "edge",
+          "prompt": "Create a shop with Stripe checkout but no product catalog or order tables mentioned.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e04",
+          "category": "edge",
+          "prompt": "Build a user portal without login or authentication of any kind but with private user data pages.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e05",
+          "category": "edge",
+          "prompt": "Design a CRM with contacts and deals but the database should only have a single settings table.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e06",
+          "category": "edge",
+          "prompt": "Create an app where managers can delete orders but the orders entity is never defined.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e07",
+          "category": "edge",
+          "prompt": "Build a payment app with billing but payment endpoints should write to a nonexistent transactions table.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e08",
+          "category": "edge",
+          "prompt": "Make a social network with posts and friends but only define a users table with email field.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e09",
+          "category": "edge",
+          "prompt": "Create a dashboard app where the login form submits to /api/unknown-endpoint.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e10",
+          "category": "edge",
+          "prompt": "Build an app with admin, user, and superadmin roles but business rules only reference a phantom auditor role.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        }
+      ]
+    },
+    {
+      "run_id": "2026-06-22T16:16:35.222425+00:00",
+      "summary": {
+        "run_id": "2026-06-22T16:16:35.222425+00:00",
+        "timestamp": "2026-06-22T16:16:35.222425+00:00",
+        "total_prompts": 20,
+        "successful_prompts": 20,
+        "success_rate": 1.0,
+        "retries_per_request": 0.0,
+        "repair_count": 0,
+        "avg_repairs_per_prompt": 0.0,
+        "avg_latency_ms": 0.65,
+        "failure_types": {
+          "clarification_needed": 1
+        },
+        "repair_examples": []
+      },
+      "results": [
+        {
+          "prompt_id": "p01",
+          "category": "normal",
+          "prompt": "Build a task management app where users can create, assign, and track tasks with statuses. Admins can manage all users.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 2,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p02",
+          "category": "normal",
+          "prompt": "Create an internal inventory management system with products, stock levels, and low-stock alerts for warehouse managers.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p03",
+          "category": "normal",
+          "prompt": "Design a simple blogging platform where authors can write posts and readers can comment. Include user registration and login.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p04",
+          "category": "normal",
+          "prompt": "Build a customer support ticket system with agents, customers, ticket priorities, and a dashboard for managers.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p05",
+          "category": "normal",
+          "prompt": "Create an employee leave request app where employees submit requests and managers approve or reject them.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p06",
+          "category": "normal",
+          "prompt": "Build a recipe sharing app with user profiles, recipe CRUD, ratings, and a search feature.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p07",
+          "category": "normal",
+          "prompt": "Design a project management tool with projects, milestones, team members, and role-based access for admins and contributors.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p08",
+          "category": "normal",
+          "prompt": "Create an event booking system where organizers create events and attendees register with email confirmation.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p09",
+          "category": "normal",
+          "prompt": "Build a fitness tracking app where users log workouts, set goals, and view progress charts on a dashboard.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p10",
+          "category": "normal",
+          "prompt": "Design a document approval workflow where employees upload documents and approvers review and sign off.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e01",
+          "category": "edge",
+          "prompt": "I need some kind of app, maybe for managing stuff? Not sure what features yet.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [
+              "clarification_needed"
+            ],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e02",
+          "category": "edge",
+          "prompt": "Build an app where guests have full admin access but admins can only view read-only pages.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e03",
+          "category": "edge",
+          "prompt": "Create a shop with Stripe checkout but no product catalog or order tables mentioned.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e04",
+          "category": "edge",
+          "prompt": "Build a user portal without login or authentication of any kind but with private user data pages.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e05",
+          "category": "edge",
+          "prompt": "Design a CRM with contacts and deals but the database should only have a single settings table.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e06",
+          "category": "edge",
+          "prompt": "Create an app where managers can delete orders but the orders entity is never defined.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e07",
+          "category": "edge",
+          "prompt": "Build a payment app with billing but payment endpoints should write to a nonexistent transactions table.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e08",
+          "category": "edge",
+          "prompt": "Make a social network with posts and friends but only define a users table with email field.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e09",
+          "category": "edge",
+          "prompt": "Create a dashboard app where the login form submits to /api/unknown-endpoint.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e10",
+          "category": "edge",
+          "prompt": "Build an app with admin, user, and superadmin roles but business rules only reference a phantom auditor role.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        }
+      ]
+    },
+    {
+      "run_id": "2026-06-22T16:16:42.612702+00:00",
+      "summary": {
+        "run_id": "2026-06-22T16:16:42.612702+00:00",
+        "timestamp": "2026-06-22T16:16:42.612702+00:00",
+        "total_prompts": 20,
+        "successful_prompts": 20,
+        "success_rate": 1.0,
+        "retries_per_request": 0.0,
+        "repair_count": 0,
+        "avg_repairs_per_prompt": 0.0,
+        "avg_latency_ms": 0.55,
+        "failure_types": {
+          "clarification_needed": 1
+        },
+        "repair_examples": []
+      },
+      "results": [
+        {
+          "prompt_id": "p01",
+          "category": "normal",
+          "prompt": "Build a task management app where users can create, assign, and track tasks with statuses. Admins can manage all users.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 2,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p02",
+          "category": "normal",
+          "prompt": "Create an internal inventory management system with products, stock levels, and low-stock alerts for warehouse managers.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p03",
+          "category": "normal",
+          "prompt": "Design a simple blogging platform where authors can write posts and readers can comment. Include user registration and login.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p04",
+          "category": "normal",
+          "prompt": "Build a customer support ticket system with agents, customers, ticket priorities, and a dashboard for managers.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p05",
+          "category": "normal",
+          "prompt": "Create an employee leave request app where employees submit requests and managers approve or reject them.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p06",
+          "category": "normal",
+          "prompt": "Build a recipe sharing app with user profiles, recipe CRUD, ratings, and a search feature.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p07",
+          "category": "normal",
+          "prompt": "Design a project management tool with projects, milestones, team members, and role-based access for admins and contributors.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p08",
+          "category": "normal",
+          "prompt": "Create an event booking system where organizers create events and attendees register with email confirmation.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p09",
+          "category": "normal",
+          "prompt": "Build a fitness tracking app where users log workouts, set goals, and view progress charts on a dashboard.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p10",
+          "category": "normal",
+          "prompt": "Design a document approval workflow where employees upload documents and approvers review and sign off.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e01",
+          "category": "edge",
+          "prompt": "I need some kind of app, maybe for managing stuff? Not sure what features yet.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [
+              "clarification_needed"
+            ],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e02",
+          "category": "edge",
+          "prompt": "Build an app where guests have full admin access but admins can only view read-only pages.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e03",
+          "category": "edge",
+          "prompt": "Create a shop with Stripe checkout but no product catalog or order tables mentioned.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e04",
+          "category": "edge",
+          "prompt": "Build a user portal without login or authentication of any kind but with private user data pages.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e05",
+          "category": "edge",
+          "prompt": "Design a CRM with contacts and deals but the database should only have a single settings table.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e06",
+          "category": "edge",
+          "prompt": "Create an app where managers can delete orders but the orders entity is never defined.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e07",
+          "category": "edge",
+          "prompt": "Build a payment app with billing but payment endpoints should write to a nonexistent transactions table.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e08",
+          "category": "edge",
+          "prompt": "Make a social network with posts and friends but only define a users table with email field.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e09",
+          "category": "edge",
+          "prompt": "Create a dashboard app where the login form submits to /api/unknown-endpoint.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e10",
+          "category": "edge",
+          "prompt": "Build an app with admin, user, and superadmin roles but business rules only reference a phantom auditor role.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        }
+      ]
+    },
+    {
+      "run_id": "2026-06-23T07:23:47.821086+00:00",
+      "summary": {
+        "run_id": "2026-06-23T07:23:47.821086+00:00",
+        "timestamp": "2026-06-23T07:23:47.821086+00:00",
+        "total_prompts": 20,
+        "successful_prompts": 20,
+        "success_rate": 1.0,
+        "retries_per_request": 0.05,
+        "repair_count": 1,
+        "avg_repairs_per_prompt": 0.05,
+        "avg_latency_ms": 0.05,
+        "failure_types": {
+          "clarification_needed": 1
+        },
+        "repair_examples": [
+          {
+            "prompt_id": "e09",
+            "notes": [
+              "[repair:api] Added missing DB field 'priority' to table 'tasks'"
+            ]
+          }
+        ]
+      },
+      "results": [
+        {
+          "prompt_id": "p01",
+          "category": "normal",
+          "prompt": "Build a task management app where users can create, assign, and track tasks with statuses. Admins can manage all users.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p02",
+          "category": "normal",
+          "prompt": "Create an internal inventory management system with products, stock levels, and low-stock alerts for warehouse managers.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p03",
+          "category": "normal",
+          "prompt": "Design a simple blogging platform where authors can write posts and readers can comment. Include user registration and login.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p04",
+          "category": "normal",
+          "prompt": "Build a customer support ticket system with agents, customers, ticket priorities, and a dashboard for managers.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p05",
+          "category": "normal",
+          "prompt": "Create an employee leave request app where employees submit requests and managers approve or reject them.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p06",
+          "category": "normal",
+          "prompt": "Build a recipe sharing app with user profiles, recipe CRUD, ratings, and a search feature.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p07",
+          "category": "normal",
+          "prompt": "Design a project management tool with projects, milestones, team members, and role-based access for admins and contributors.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p08",
+          "category": "normal",
+          "prompt": "Create an event booking system where organizers create events and attendees register with email confirmation.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p09",
+          "category": "normal",
+          "prompt": "Build a fitness tracking app where users log workouts, set goals, and view progress charts on a dashboard.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p10",
+          "category": "normal",
+          "prompt": "Design a document approval workflow where employees upload documents and approvers review and sign off.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e01",
+          "category": "edge",
+          "prompt": "I need some kind of app, maybe for managing stuff? Not sure what features yet.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [
+              "clarification_needed"
+            ],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e02",
+          "category": "edge",
+          "prompt": "Build an app where guests have full admin access but admins can only view read-only pages.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e03",
+          "category": "edge",
+          "prompt": "Create a shop with Stripe checkout but no product catalog or order tables mentioned.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e04",
+          "category": "edge",
+          "prompt": "Build a user portal without login or authentication of any kind but with private user data pages.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e05",
+          "category": "edge",
+          "prompt": "Design a CRM with contacts and deals but the database should only have a single settings table.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e06",
+          "category": "edge",
+          "prompt": "Create an app where managers can delete orders but the orders entity is never defined.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e07",
+          "category": "edge",
+          "prompt": "Build a payment app with billing but payment endpoints should write to a nonexistent transactions table.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e08",
+          "category": "edge",
+          "prompt": "Make a social network with posts and friends but only define a users table with email field.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e09",
+          "category": "edge",
+          "prompt": "Build a task app where users create tasks with title, status, and priority. Admins manage users.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 1,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": [
+              "[repair:api] Added missing DB field 'priority' to table 'tasks'"
+            ]
+          },
+          "error": null,
+          "repaired": true,
+          "repair_notes": [
+            "[repair:api] Added missing DB field 'priority' to table 'tasks'"
+          ]
+        },
+        {
+          "prompt_id": "e10",
+          "category": "edge",
+          "prompt": "Build an app with admin, user, and superadmin roles but business rules only reference a phantom auditor role.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        }
+      ]
+    },
+    {
+      "run_id": "2026-06-23T07:31:38.398188+00:00",
+      "summary": {
+        "run_id": "2026-06-23T07:31:38.398188+00:00",
+        "timestamp": "2026-06-23T07:31:38.398188+00:00",
+        "total_prompts": 20,
+        "successful_prompts": 20,
+        "success_rate": 1.0,
+        "retries_per_request": 0.05,
+        "repair_count": 1,
+        "avg_repairs_per_prompt": 0.05,
+        "avg_latency_ms": 0.75,
+        "failure_types": {
+          "clarification_needed": 1
+        },
+        "repair_examples": [
+          {
+            "prompt_id": "e09",
+            "notes": [
+              "[repair:api] Added missing DB field 'priority' to table 'tasks'"
+            ]
+          }
+        ]
+      },
+      "results": [
+        {
+          "prompt_id": "p01",
+          "category": "normal",
+          "prompt": "Build a task management app where users can create, assign, and track tasks with statuses. Admins can manage all users.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 4,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p02",
+          "category": "normal",
+          "prompt": "Create an internal inventory management system with products, stock levels, and low-stock alerts for warehouse managers.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p03",
+          "category": "normal",
+          "prompt": "Design a simple blogging platform where authors can write posts and readers can comment. Include user registration and login.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p04",
+          "category": "normal",
+          "prompt": "Build a customer support ticket system with agents, customers, ticket priorities, and a dashboard for managers.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p05",
+          "category": "normal",
+          "prompt": "Create an employee leave request app where employees submit requests and managers approve or reject them.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p06",
+          "category": "normal",
+          "prompt": "Build a recipe sharing app with user profiles, recipe CRUD, ratings, and a search feature.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p07",
+          "category": "normal",
+          "prompt": "Design a project management tool with projects, milestones, team members, and role-based access for admins and contributors.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p08",
+          "category": "normal",
+          "prompt": "Create an event booking system where organizers create events and attendees register with email confirmation.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p09",
+          "category": "normal",
+          "prompt": "Build a fitness tracking app where users log workouts, set goals, and view progress charts on a dashboard.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "p10",
+          "category": "normal",
+          "prompt": "Design a document approval workflow where employees upload documents and approvers review and sign off.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e01",
+          "category": "edge",
+          "prompt": "I need some kind of app, maybe for managing stuff? Not sure what features yet.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [
+              "clarification_needed"
+            ],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e02",
+          "category": "edge",
+          "prompt": "Build an app where guests have full admin access but admins can only view read-only pages.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e03",
+          "category": "edge",
+          "prompt": "Create a shop with Stripe checkout but no product catalog or order tables mentioned.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e04",
+          "category": "edge",
+          "prompt": "Build a user portal without login or authentication of any kind but with private user data pages.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e05",
+          "category": "edge",
+          "prompt": "Design a CRM with contacts and deals but the database should only have a single settings table.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e06",
+          "category": "edge",
+          "prompt": "Create an app where managers can delete orders but the orders entity is never defined.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e07",
+          "category": "edge",
+          "prompt": "Build a payment app with billing but payment endpoints should write to a nonexistent transactions table.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 1,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e08",
+          "category": "edge",
+          "prompt": "Make a social network with posts and friends but only define a users table with email field.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        },
+        {
+          "prompt_id": "e09",
+          "category": "edge",
+          "prompt": "Build a task app where users create tasks with title, status, and priority. Admins manage users.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 2,
+            "repair_count": 1,
+            "retries_per_request": 1,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": [
+              "[repair:api] Added missing DB field 'priority' to table 'tasks'"
+            ]
+          },
+          "error": null,
+          "repaired": true,
+          "repair_notes": [
+            "[repair:api] Added missing DB field 'priority' to table 'tasks'"
+          ]
+        },
+        {
+          "prompt_id": "e10",
+          "category": "edge",
+          "prompt": "Build an app with admin, user, and superadmin roles but business rules only reference a phantom auditor role.",
+          "success": true,
+          "metrics": {
+            "latency_ms": 0,
+            "repair_count": 0,
+            "retries_per_request": 0,
+            "failure_types": [],
+            "validation_valid": true,
+            "runtime_executable": true,
+            "repair_notes": []
+          },
+          "error": null,
+          "repaired": false,
+          "repair_notes": []
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "run_id": "2026-06-23T07:31:38.398188+00:00",
+    "timestamp": "2026-06-23T07:31:38.398188+00:00",
+    "total_prompts": 20,
+    "successful_prompts": 20,
+    "success_rate": 1.0,
+    "retries_per_request": 0.05,
+    "repair_count": 1,
+    "avg_repairs_per_prompt": 0.05,
+    "avg_latency_ms": 0.75,
+    "failure_types": {
+      "clarification_needed": 1
+    },
+    "repair_examples": [
+      {
+        "prompt_id": "e09",
+        "notes": [
+          "[repair:api] Added missing DB field 'priority' to table 'tasks'"
+        ]
+      }
+    ]
+  }
+}

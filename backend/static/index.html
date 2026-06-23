@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AppCompiler AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="header-inner">
+          <div class="brand">
+            <span class="brand-icon">⚙</span>
+            <div>
+              <h1>AppCompiler AI</h1>
+              <p class="tagline">Natural language → validated executable app configuration</p>
+            </div>
+          </div>
+          <div class="header-actions">
+            <button id="btn-load-eval" class="btn btn-secondary" type="button">Load Eval Results</button>
+            <button id="btn-eval" class="btn btn-secondary" type="button">Run Evaluation (20 prompts)</button>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="input-section">
+          <label for="prompt">App Requirements</label>
+          <div class="sample-prompts">
+            <span class="sample-label">Sample prompts:</span>
+            <button type="button" class="btn btn-sample" data-prompt="Build a task management app where users can create, assign, and track tasks with statuses. Admins can manage all users.">Task + Admin Users</button>
+            <button type="button" class="btn btn-sample" data-prompt="Build a CRM with login, contacts, dashboard, role-based access, premium plan with payments, and admin analytics.">CRM + Payments</button>
+            <button type="button" class="btn btn-sample" data-prompt="Build an app with no login, but admins must manage users.">Auth Conflict</button>
+          </div>
+          <textarea id="prompt" rows="5" placeholder="Describe your app in natural language…">Build a task management app where users can create, assign, and track tasks with statuses. Admins can manage all users.</textarea>
+          <button id="btn-generate" class="btn btn-primary" type="button">Generate App Config</button>
+        </section>
+
+        <div id="error-banner" class="error-banner hidden" role="alert"></div>
+
+        <div class="grid">
+          <section class="panel">
+            <h2 class="panel-title">Pipeline Stages</h2>
+            <div class="panel-body">
+              <ul id="stage-list" class="stage-list"></ul>
+            </div>
+          </section>
+          <section class="panel">
+            <h2 class="panel-title">Metrics</h2>
+            <div id="metrics-panel" class="panel-body">
+              <p class="muted">Run generation to see metrics.</p>
+            </div>
+          </section>
+        </div>
+
+        <div class="grid">
+          <section class="panel">
+            <h2 class="panel-title">Validation Errors</h2>
+            <div id="issues-panel" class="panel-body">
+              <p class="muted">No data yet.</p>
+            </div>
+          </section>
+          <section class="panel">
+            <h2 class="panel-title">Assumptions</h2>
+            <div id="assumptions-panel" class="panel-body">
+              <p class="muted">No data yet.</p>
+            </div>
+          </section>
+        </div>
+
+        <section class="panel panel-json">
+          <h2 class="panel-title">Evaluation Results</h2>
+          <div id="eval-panel" class="panel-body">
+            <p class="muted">Run evaluation or load saved results.</p>
+          </div>
+        </section>
+
+        <section class="panel panel-json">
+          <h2 class="panel-title">Generated App Config (JSON)</h2>
+          <div class="panel-body">
+            <pre id="json-viewer" class="json-viewer muted">Generated configuration will appear here.</pre>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span>AppCompiler AI Demo</span>
+        <span class="muted">Open at http://localhost:8000</span>
+      </footer>
+    </div>
+    <script src="/static/app.js"></script>
+  </body>
+</html>

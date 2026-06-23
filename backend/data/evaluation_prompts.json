@@ -1,0 +1,104 @@
+{
+  "prompts": [
+    {
+      "id": "p01",
+      "category": "normal",
+      "prompt": "Build a task management app where users can create, assign, and track tasks with statuses. Admins can manage all users."
+    },
+    {
+      "id": "p02",
+      "category": "normal",
+      "prompt": "Create an internal inventory management system with products, stock levels, and low-stock alerts for warehouse managers."
+    },
+    {
+      "id": "p03",
+      "category": "normal",
+      "prompt": "Design a simple blogging platform where authors can write posts and readers can comment. Include user registration and login."
+    },
+    {
+      "id": "p04",
+      "category": "normal",
+      "prompt": "Build a customer support ticket system with agents, customers, ticket priorities, and a dashboard for managers."
+    },
+    {
+      "id": "p05",
+      "category": "normal",
+      "prompt": "Create an employee leave request app where employees submit requests and managers approve or reject them."
+    },
+    {
+      "id": "p06",
+      "category": "normal",
+      "prompt": "Build a recipe sharing app with user profiles, recipe CRUD, ratings, and a search feature."
+    },
+    {
+      "id": "p07",
+      "category": "normal",
+      "prompt": "Design a project management tool with projects, milestones, team members, and role-based access for admins and contributors."
+    },
+    {
+      "id": "p08",
+      "category": "normal",
+      "prompt": "Create an event booking system where organizers create events and attendees register with email confirmation."
+    },
+    {
+      "id": "p09",
+      "category": "normal",
+      "prompt": "Build a fitness tracking app where users log workouts, set goals, and view progress charts on a dashboard."
+    },
+    {
+      "id": "p10",
+      "category": "normal",
+      "prompt": "Design a document approval workflow where employees upload documents and approvers review and sign off."
+    },
+    {
+      "id": "e01",
+      "category": "edge",
+      "prompt": "I need some kind of app, maybe for managing stuff? Not sure what features yet."
+    },
+    {
+      "id": "e02",
+      "category": "edge",
+      "prompt": "Build an app where guests have full admin access but admins can only view read-only pages."
+    },
+    {
+      "id": "e03",
+      "category": "edge",
+      "prompt": "Create a shop with Stripe checkout but no product catalog or order tables mentioned."
+    },
+    {
+      "id": "e04",
+      "category": "edge",
+      "prompt": "Build a user portal without login or authentication of any kind but with private user data pages."
+    },
+    {
+      "id": "e05",
+      "category": "edge",
+      "prompt": "Design a CRM with contacts and deals but the database should only have a single settings table."
+    },
+    {
+      "id": "e06",
+      "category": "edge",
+      "prompt": "Create an app where managers can delete orders but the orders entity is never defined."
+    },
+    {
+      "id": "e07",
+      "category": "edge",
+      "prompt": "Build a payment app with billing but payment endpoints should write to a nonexistent transactions table."
+    },
+    {
+      "id": "e08",
+      "category": "edge",
+      "prompt": "Make a social network with posts and friends but only define a users table with email field."
+    },
+    {
+      "id": "e09",
+      "category": "edge",
+      "prompt": "Build a task app where users create tasks with title, status, and priority. Admins manage users."
+    },
+    {
+      "id": "e10",
+      "category": "edge",
+      "prompt": "Build an app with admin, user, and superadmin roles but business rules only reference a phantom auditor role."
+    }
+  ]
+}
