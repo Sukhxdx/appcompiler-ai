@@ -1,5 +1,7 @@
 # AppCompiler AI
 
+**Live demo:** [https://appcompiler-ai-x7fr.onrender.com](https://appcompiler-ai-x7fr.onrender.com)
+
 An AI engineer internship demo that converts natural language app requirements into a **strict, validated, executable application configuration**.
 
 ## What It Does
@@ -145,25 +147,13 @@ Tracked metrics: `success_rate`, `successful_prompts`, `avg_latency_ms`, `repair
 
 ## Live Demo (public URL for reviewers)
 
-`http://localhost:8000` only works on your computer. For a link **anyone can open**, deploy to [Render](https://render.com) (free):
+**Live demo:** [https://appcompiler-ai-x7fr.onrender.com](https://appcompiler-ai-x7fr.onrender.com)
 
-1. Sign up at [render.com](https://render.com) (use **Sign in with GitHub**).
-2. Click **New +** → **Blueprint**.
-3. Connect repo **[Sukhxdx/appcompiler-ai](https://github.com/Sukhxdx/appcompiler-ai)**.
-4. Render reads `render.yaml` automatically → click **Apply**.
-5. Wait ~3–5 minutes for the build to finish.
+**GitHub:** [https://github.com/Sukhxdx/appcompiler-ai](https://github.com/Sukhxdx/appcompiler-ai)
 
-You will get a public URL like:
+Share the live demo link in your internship submission (not `localhost`). The Render free tier may sleep after ~15 min idle; the first visit after sleep takes ~30 seconds to wake up.
 
-**`https://appcompiler-ai.onrender.com`**
-
-Share that link in your internship submission (not localhost). The free tier may sleep after ~15 min idle; the first visit after sleep takes ~30 seconds to wake up.
-
-After deploy, add your live URL at the top of this README:
-
-```markdown
-**Live demo:** https://your-app.onrender.com
-```
+For local development, run the backend and open `http://localhost:8000`.
 
 ### Local production-style run
 

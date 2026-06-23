@@ -4,7 +4,7 @@
 
 > "Hi, I'm walking through AppCompiler AI — an internship demo that compiles natural language app requirements into a validated, executable application configuration. Think of it as a compiler for app specs, not a single ChatGPT prompt."
 
-*Show http://localhost:8000*
+*Show https://appcompiler-ai-x7fr.onrender.com*
 
 ## Problem (0:20 – 0:40)
 

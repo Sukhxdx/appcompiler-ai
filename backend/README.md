@@ -2,6 +2,8 @@
 
 See the [project README](../README.md) for full documentation and [LOOM_SCRIPT.md](../LOOM_SCRIPT.md) for the video walkthrough.
 
+**Live demo:** [https://appcompiler-ai-x7fr.onrender.com](https://appcompiler-ai-x7fr.onrender.com)
+
 ## Run
 
 ```bash
