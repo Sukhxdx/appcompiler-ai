@@ -155,10 +155,3 @@ Tracked metrics: `success_rate`, `successful_prompts`, `avg_latency_ms`, `repair
 2. **CRM + Payments** — contacts, premium billing, subscriptions, admin analytics
 3. **Auth Conflict** — "no login" but admins manage users → auth enabled with clarification flag
 
-## Loom Video Script
-
-See [LOOM_SCRIPT.md](LOOM_SCRIPT.md) for a 3-minute walkthrough script.
-
-## License
-
-Demo project for educational / internship submission purposes.
