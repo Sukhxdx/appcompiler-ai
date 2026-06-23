@@ -19,7 +19,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 ```
 
-Open **[http://localhost:8000](http://localhost:8000)** — UI is served by FastAPI (no Node.js required).
+Open **[http://localhost:8000](http://localhost:8000/)** UI is served by FastAPI (no Node.js required).
 
 ### Run Frontend (Optional React UI)
 
@@ -180,10 +180,3 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 2. **CRM + Payments** — contacts, premium billing, subscriptions, admin analytics
 3. **Auth Conflict** — "no login" but admins manage users → auth enabled with clarification flag
 
-## Loom Video Script
-
-See [LOOM_SCRIPT.md](LOOM_SCRIPT.md) for a 3-minute walkthrough script.
-
-## License
-
-Demo project for educational / internship submission purposes.
