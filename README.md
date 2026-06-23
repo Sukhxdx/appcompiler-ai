@@ -143,9 +143,34 @@ Tracked metrics: `success_rate`, `successful_prompts`, `avg_latency_ms`, `repair
 
 **Recommendation:** Use mock mode for development and evaluation baselines. Use OpenAI/Gemini for novel production prompts. Always run validation + repair — cheaper than re-prompting the full pipeline.
 
-## Deploy
+## Live Demo (public URL for reviewers)
 
-**Backend:** `uvicorn main:app --host 0.0.0.0 --port $PORT`
+`http://localhost:8000` only works on your computer. For a link **anyone can open**, deploy to [Render](https://render.com) (free):
+
+1. Sign up at [render.com](https://render.com) (use **Sign in with GitHub**).
+2. Click **New +** → **Blueprint**.
+3. Connect repo **[Sukhxdx/appcompiler-ai](https://github.com/Sukhxdx/appcompiler-ai)**.
+4. Render reads `render.yaml` automatically → click **Apply**.
+5. Wait ~3–5 minutes for the build to finish.
+
+You will get a public URL like:
+
+**`https://appcompiler-ai.onrender.com`**
+
+Share that link in your internship submission (not localhost). The free tier may sleep after ~15 min idle; the first visit after sleep takes ~30 seconds to wake up.
+
+After deploy, add your live URL at the top of this README:
+
+```markdown
+**Live demo:** https://your-app.onrender.com
+```
+
+### Local production-style run
+
+```bash
+cd backend
+uvicorn main:app --host 0.0.0.0 --port 8000
+```
 
 **Frontend (optional):** `npm run build` in `frontend/`, set `VITE_API_URL` to backend URL.
 
