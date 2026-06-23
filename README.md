@@ -19,7 +19,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 ```
 
-Open **[http://localhost:8000](http://localhost:8000)** — UI is served by FastAPI (no Node.js required).
+Open **[http://localhost:8000](http://localhost:8000/)** UI is served by FastAPI (no Node.js required).
 
 ### Run Frontend (Optional React UI)
 
